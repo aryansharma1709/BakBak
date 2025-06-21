@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAuthStore } from "../store/useAuthStore";
 import { Camera, Mail, User } from "lucide-react";
-import avatar from "/home/aryan-sharma/Desktop/BakBak/frontend/public/avatar.svg"
+import avatar from "../../public/avatar.svg"
 function ProfilePage() {
      const { authUser, isUpdatingProfile, updateProfile } = useAuthStore();
   const [selectedImg, setSelectedImg] = useState(null);

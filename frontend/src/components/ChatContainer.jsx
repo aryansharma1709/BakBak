@@ -6,7 +6,7 @@ import MessageInput from "./MessageInput";
 import MessageSkeleton from "./skeletons/MessageSkeleton";
 import { useAuthStore } from "../store/useAuthStore.js";
 import { formatMessageTime } from "../lib/utils";
-import avatar from "/home/aryan-sharma/Desktop/BakBak/frontend/public/avatar.svg"
+import avatar from "../../public/avatar.svg"
 
 const ChatContainer = () => {
   const {

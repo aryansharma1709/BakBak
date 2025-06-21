@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { useAuthStore } from "../store/useAuthStore";
 import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare, User } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from '/home/aryan-sharma/Desktop/BakBak/frontend/public/bakbaklogo.png'
+import logo from "../../public/bakbaklogo.png"
 import AuthImagePattern from "../components/AuthImagePattern";
 function SignUpPage() {
      const [showPassword, setShowPassword] = useState(false);

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
 import { LogOut, MessageSquare, Settings, User } from "lucide-react";
-import logo from "/home/aryan-sharma/Desktop/BakBak/frontend/public/bakbaklogo.png"
+import logo from "../../public/bakbaklogo.png"
 function Navbar() {
      const { logout, authUser } = useAuthStore();
   return (
